@@ -1,0 +1,79 @@
+.mobile {
+  /* border: 2px solid red; */
+  position: absolute;
+  /* justify-content: right; */
+  right: 0rem;
+  font-size: 1.625rem;
+}
+.MobileComponent {
+  border-top: 10px solid grey;
+
+  padding: 2rem;
+}
+.image img {
+  position: absolute;
+  top: 85rem;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  max-height: 100%;
+  border: 0px;
+  height: 20rem;
+  width: 28rem;
+  opacity: 1;
+}
+.text0 {
+  color: #fff;
+  font-size: 1.125rem;
+  /* border: 2px solid red; */
+  display: block;
+  font-weight: bold;
+}
+.text1 {
+  color: #0071eb;
+  font-size: 1.125rem;
+  display: block;
+  /* border: 2px solid red; */
+}
+.downloadAnimation img {
+  position: absolute;
+  top: 98.5rem;
+  left: 6rem;
+  height: 4rem;
+  width: 3rem;
+  max-width: 100%;
+  z-index: 1;
+  border: 0px;
+  opacity: 1;
+}
+.strange {
+  display: flex;
+  border: 2px solid white;
+}
+.strange {
+  background-color: black;
+  padding: 1rem;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 5rem;
+  top: 98rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.125rem;
+  align-items: center;
+}
+.black::after{
+    width: 4rem;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    content: '';
+    position: absolute;
+    top: 99.1rem;
+    left: 23rem;
+    
+    
+}
